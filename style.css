@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+body {
+  background: #000;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 350px;
+  height: 550px;
+}
+
+.card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7em;
+  min-height: 60px;
+  background: rgb(255, 255, 255);
+  padding: 0px 8px;
+}
+
+.card .card-top .icon {
+  font-size: 1.7em;
+  padding-right: 0.2em;
+}
+
+.card .card-top .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
+
+.card .card-top .three-dots {
+  font-size: 2em;
+}
+
+.card .card-middle {
+  padding-bottom: 0.8rem;
+}
+
+.card .card-middle img {
+  object-fit: contain;
+}
+
+.card .card-bottom .icons-div {
+  display: flex;
+  font-size: 1.7em;
+  justify-content: space-between;
+  padding: 0px 0.5rem;
+  padding-bottom: 1.2rem;
+}
+
+.card .card-bottom .text-area {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7em;
+  padding: 0px 0.5rem;
+}
+
+.card .card-bottom .text-area .likes {
+  padding-bottom: 0.5em;
+}
